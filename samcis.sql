@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2019 at 08:14 PM
+-- Generation Time: Jul 03, 2019 at 08:19 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.4
 
@@ -33,7 +33,8 @@ CREATE TABLE `student_registration` (
   `first_name` varchar(45) DEFAULT NULL,
   `last_name` varchar(45) DEFAULT NULL,
   `email_address` varchar(45) DEFAULT NULL,
-  `postal_address` varchar(100) DEFAULT NULL
+  `postal_address` varchar(100) DEFAULT NULL,
+  `contact_number` bigint(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
