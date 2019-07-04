@@ -1,0 +1,21 @@
+#regForm{
+    text-align: center;
+}
+
+#regForm h4{
+    font-size:20px;
+}
+
+#regForm .form-group{
+    padding: 10px;
+}
+
+#regForm label{
+    margin-right: 5px;
+}
+
+#regForm input[type=text], input[type=email]{
+    width: 150px;
+    padding:2px;
+    margin-left: 20px;
+}
